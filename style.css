@@ -1,0 +1,66 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width:400px;
+  margin: auto;
+  
+  
+}
+
+h1{
+  text-align: center;
+  background-color: rgb(31, 133, 10);
+  margin-left: 25%;
+  padding: inherit;
+  color: white;
+}
+.formtop{
+  margin-top: 50px;
+  padding: 20px;
+  
+}
+form{
+width: 100%;
+display: flex;
+
+}
+
+input[type="submit" i]{
+  background-color: rgb(65, 236, 34);
+  background-image: url(plus.png);
+  cursor:pointer;
+  width: 15%;
+  border-left: none !important;
+  border-top: none !important;
+  border-color: grey;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+input[type="search" i] {
+  width: 90%;
+  height: 50px;
+  border-right: none !important;
+  border-top: none !important;
+  padding: 10px;
+
+}
+
+.heading{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(31, 133, 10);
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.img{
+  width: 25px;
+  height: 33px;
+  margin-left: 3%;
+}
+
+.completed{
+  color: grey;
+  text-decoration: line-through;
+}
